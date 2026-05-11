@@ -1,0 +1,14 @@
+{
+  "name": "hash256-miner",
+  "version": "2.0.0",
+  "description": "Mining bot for hash256.org $HASH token",
+  "main": "miner.js",
+  "scripts": {
+    "start": "node miner.js",
+    "check": "node check-state.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "ethers": "^6.13.0"
+  }
+}
